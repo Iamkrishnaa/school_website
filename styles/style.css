@@ -1,6 +1,6 @@
 html, body{
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /*
@@ -147,3 +147,70 @@ This code will make loader to center
     color: red;
     display: inline-block
 }
+
+
+.about-more{
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0) skewX(-10deg);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+  background-color: #095a83;
+  transition-duration: 0.3s;
+  color: #fff;
+  width: 165px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.welcome-area{
+  margin-top: 20px;
+}
+.welcome-underline{
+  width: 40%;
+  height: 5px;
+  background-color: #0c1a70;
+  transform: skewX(-30deg);
+  margin: 5px;
+}
+.content-text{
+  text-align: justify;
+}
+
+.about-more-button a{
+  text-decoration: none!important;
+  outline: none!important;
+}
+.about-more-button a:hover{
+  background-color: #134594;
+  color: #43e653;
+}
+.news-part{
+  margin-top: 20px;
+}
+.card-body a{
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+}
+.card-body a::before{
+  content: "\00bb";
+  font-weight: bold;
+  font-size: 20px;
+}
+.card-body a:hover{
+  color: #4f138f;
+}
+.welcome-area h2{
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #4f138f;
+}
+.welcome-front{
+  color: rgb(28, 73, 7);
+}
+
