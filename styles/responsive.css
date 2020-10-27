@@ -1,0 +1,25 @@
+@media only screen and (max-width: 768px) {
+    #school-header{
+      display: none;
+    }
+    .news-ticker{
+      padding: 0px!important;
+    }
+    .breaking-news{
+      min-width: 100vw!important;
+    }
+}
+@media (max-width: 992px) {
+  .navbar-wrapper{
+    padding: 0%;
+    max-width: 100% !important;
+  }
+  #mycarousel{
+    margin-top: 0px;
+  }
+}
+@media (max-width: 1280px) {
+  .image-slider{
+    padding: 0px !important;
+  }
+}

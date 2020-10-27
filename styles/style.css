@@ -1,0 +1,149 @@
+html, body{
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+/*
+This code will make loader
+*/
+#loader { 
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/icons/loader.gif) center no-repeat #fff; 
+}
+/*
+This code will make loader to center
+*/   
+.loader .center { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    margin: auto; 
+} 
+
+/*==================
+ HEADER SECTION
+====================*/
+#school-header {
+    background-color: #f8f8f8;
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #school-header .school-header-area {
+    display: inline;
+    float: left;
+    padding: 10px 0;
+    width: 100%;
+  }
+  #school-header .school-header-area .school-header-top-left {
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  #school-header .school-header-area .school-header-top-left .school-top-email {
+    display: inline;
+    float: left;
+    font-size: 14px;
+  }
+  #school-header .school-header-area .school-header-top-left .school-top-email i {
+    margin-right: 5px;
+  }
+  #school-header .school-header-area .school-header-top-left .school-top-phone {
+    border-left: 1px solid #ddd;
+    display: inline;
+    font-size: 14px;
+    float: left;
+    margin-left: 15px;
+    padding-left: 15px;
+  }
+  #school-header .school-header-area .school-header-top-left .school-top-phone i {
+    margin-right: 5px;
+  }
+  #school-header .school-header-area .school-header-top-right {
+    display: inline;
+    float: left;
+    text-align: right;
+    width: 100%;
+  }
+  #school-header .school-header-area .school-header-top-right .school-top-social-nav {
+    display: inline-block;
+  }
+  #school-header .school-header-area .school-header-top-right .school-top-social-nav li {
+    display: inline-block;
+  }
+  #school-header .school-header-area .school-header-top-right .school-top-social-nav li a {
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    padding: 0 8px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+
+  /* NavBar Section */
+  .navbar-wrapper{
+    max-width: 90% !important;
+  }
+  .my-nav{
+    z-index: 999;
+
+  }
+  .my-nav ul li a{
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  /*Carousel Section*/
+  #mycarousel{
+    margin-top: -60px;
+  }
+  .carousel-item img{
+    max-height: 80vh!important;
+    min-height: 40vh!important;
+  }
+  .carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+  }
+
+  /* Latest News Section */
+  .news-ticker{
+    position: relative;
+    top: -20px;
+  }
+  .news {
+    width: 160px;
+    text-transform: uppercase;
+}
+.breaking-news{
+  background-color: #134594;
+}
+.news-scroll a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+}
+.news-scroll a:hover{
+  color: #b2e046;
+}
+
+.dot {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 2px !important;
+    background-color: rgb(255, 0, 0);
+    color: red;
+    display: inline-block
+}
