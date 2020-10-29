@@ -105,7 +105,7 @@ This code will make loader to center
 
   /*Carousel Section*/
   #mycarousel{
-    margin-top: -60px;
+    margin-top: -40px;
   }
   .carousel-item img{
     max-height: 80vh!important;
@@ -152,8 +152,6 @@ This code will make loader to center
 .about-more{
   display: inline-block;
   vertical-align: middle;
-  transform: perspective(1px) translateZ(0) skewX(-10deg);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
   background-color: #095a83;
@@ -165,6 +163,8 @@ This code will make loader to center
   line-height: 45px;
   margin-top: 20px;
   font-weight: 600;
+  border-radius: 8px;
+  text-transform: capitalize;
 }
 .welcome-area{
   margin-top: 20px;
@@ -212,5 +212,91 @@ This code will make loader to center
 }
 .welcome-front{
   color: rgb(28, 73, 7);
+}
+
+
+
+/*
+below code is for goup button
+*/
+#goUp {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.5s;
+}
+.fa-chevron-up{
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 32px;
+  color: white;
+  padding: 10px;
+  background-color: green;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.fa-chevron-up:hover{
+  background-color: purple;
+  transform: translateY(-10px);
+  transition: 0.4s;
+}
+
+/* Footer Section */
+hr{
+  background-color: #fff !important;
+}
+.footer-section{
+  color: #fff;
+  text-align: justify!important;
+}
+.footer-section a{
+  color: #fff;
+  transition: 0.3s;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer-section a:hover{
+  transition: 0.3s;
+  color: orangered;
+}
+
+.map-container-3{
+  width: 100%!important;
+  }
+  .map-container-3 iframe{
+  width:100%!important;
+  height: 20vh;
+  border-radius: 20px;
+  }
+
+/*Below code for copyright section*/
+.copyright-section{
+  padding: 20px;
+  background-color: rgb(32, 32, 34);
+}
+.copyright-text{
+  color: #cac6c6;
+  font-size: 1rem;
+}
+.copyright-text a{
+  transition: 0.3s;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cac6c6;
+}
+.copyright-text a:hover{
+  transition: 0.3s;
+  color: orangered;
 }
 

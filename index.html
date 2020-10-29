@@ -68,7 +68,7 @@
   <div class="container-lg navbar-wrapper">
     <nav class="my-nav navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">
-        <img src="https://veta.edu.np/wp-content/uploads/2020/09/site_logo.png">
+        <img src="https://veta.edu.np/wp-content/uploads/2020/09/site_logo.png" style="max-height: 60px;">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -147,70 +147,145 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-</div>
-<!-- Latest News Ticker -->
-<div class="container news-ticker">
-  <div class="row">
-      <div class="col-md-12 ticker-col">
-          <div class="d-flex justify-content-between align-items-center breaking-news">
-              <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news">
-                <span class="d-flex align-items-center">Latest Notice</span></div>
-              <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> 
-                <a href="#">Excepteur sint occaecat. </a> 
-                <span class="dot">|</span> 
-                <a href="#">Lorem ipsum dolor sit amet,</a> 
-                <span class="dot">|</span> <a href="#">Duis aute irure dolor in</a> 
-              </marquee>
-          </div>
-      </div>
   </div>
-</div>
-
-<!-- About & News -->
-<div class="about-section">
-  <div class="container">
+  <!-- Latest News Ticker -->
+  <div class="container news-ticker">
     <div class="row">
-      <div class="col-md-6 about-part">
-        <div class="welcome-area">
-          <h2>
-            <span class="welcome-front">Welcome To </span>School
-          </h2>
-          <div class="welcome-underline"></div>
-          <div class="content-text">
-            Lorem ipsum dolor sit, 
-            amet consectetur adipisicing elit.
-             Excepturi dignissimos amet omnis 
-             odit odio tenetur ipsum reprehenderit 
-             repellendus eum voluptates laboriosam
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore molestias quod error optio, animi odio.	 
-          </div>
-          <div class="about-more-button btn">
-            <a href="#" class="about-more">About more</a>
+        <div class="col-md-12 ticker-col">
+            <div class="d-flex justify-content-between align-items-center breaking-news">
+                <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news">
+                  <span class="d-flex align-items-center">Latest Notice</span></div>
+                <marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> 
+                  <a href="#">Excepteur sint occaecat. </a> 
+                  <span class="dot">|</span> 
+                  <a href="#">Lorem ipsum dolor sit amet,</a> 
+                  <span class="dot">|</span> <a href="#">Duis aute irure dolor in</a> 
+                </marquee>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- About & News -->
+  <div class="about-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 about-part">
+          <div class="welcome-area">
+            <h2>
+              <span class="welcome-front">Welcome To </span>School
+            </h2>
+            <div class="welcome-underline"></div>
+            <div class="content-text">
+              Lorem ipsum dolor sit, 
+              amet consectetur adipisicing elit.
+              Excepturi dignissimos amet omnis 
+              odit odio tenetur ipsum reprehenderit 
+              repellendus eum voluptates laboriosam
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore molestias quod error optio, animi odio.	 
+            </div>
+            <div class="about-more-button btn">
+              <a href="#" class="about-more">About more</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-6 news-part">
-        <div class="card bg-light mb-3 ml-auto" style="max-width: 25rem;">
-          <div class="card-header"><h4>News</h2></div>
-          <div class="card-body">
-            <a href="#">Result of First Year Published</a><br>
-            <a href="#">Examination Notice</a><br>
-            <a href="#">Re Assessment</a><br>
-            <a href="#">Event Notice</a><br>
-            <a href="#">Other Notice</a><br>
-          </div>
-          <div class="ml-auto pb-1 pr-1 btn-see-more">
-            <a href="#" class="btn-info btn">See More</a>
+        <div class="col-md-6 news-part">
+          <div class="card bg-light mb-3 ml-auto" style="max-width: 25rem;">
+            <div class="card-header"><h4>News</h2></div>
+            <div class="card-body">
+              <a href="#">Result of First Year Published</a><br>
+              <a href="#">Examination Notice</a><br>
+              <a href="#">Re Assessment</a><br>
+              <a href="#">Event Notice</a><br>
+              <a href="#">Other Notice</a><br>
+            </div>
+            <div class="ml-auto pb-1 pr-1 btn-see-more">
+              <a href="#" class="btn-info btn">See More</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-    <!-- Bootstrap scripts. -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+
+
+  <!--Go Up button-->
+  <button onclick="topFunction()" id="goUp" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-section bg-dark p-1">
+        <!-- Footer Links -->
+    <div class="container text-justify text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">School Name</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Lorem ipsum dolor sit amet,
+            consectetur</p>
+            <i class="fas fa-map-marker-alt"></i> School Location<br>
+            <i class="fas fa-envelope"></i> info@school.com<br>
+            <i class="fas fa-phone"></i> + 00 00 00000<br>
+            <i class="fas fa-print"></i> + 00 00 00000
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;"><br>
+            <a href="#!">Link 1</a><br>
+            <a href="#!">Link 2</a><br>
+            <a href="#!">Link 3</a><br>
+            <a href="#!">Link 4</a><br>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 col-xl-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Location Map</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;"><br>
+          <!--Google map-->
+          <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d796.3453167807187!2d83.91475350122698!3d28.314159611981143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53fd468bd961efe!2sA-One%20Dairy%20Farm!5e1!3m2!1sen!2snp!4v1603946833917!5m2!1sen!2snp" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+    </div>
+
+    <!-- Copyright Area -->
+    <div class="container-fluid copyright-section">
+      <div class="container text-center copyright-text">
+        Copyright © 2020 <strong><a title="School Name" href="#">School.</a>&nbsp;</strong>&nbsp;<strong>MADE WITH <img draggable="false" role="img" class="emoji" alt="❤" src="https://s.w.org/images/core/emoji/13.0.0/svg/2764.svg" style="max-width: 16px;"> BY <a href="https://krishna-adhikari.com.np" target="_blank">TEISPACE</a></strong>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap scripts. -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom Scripts -->
+  <script src="js/script.js"></script>
 </body>
 </html>
