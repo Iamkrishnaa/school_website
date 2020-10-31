@@ -148,7 +148,6 @@ This code will make loader to center
     display: inline-block
 }
 
-
 .about-more{
   display: inline-block;
   vertical-align: middle;
@@ -191,19 +190,37 @@ This code will make loader to center
 .news-part{
   margin-top: 20px;
 }
+
+.home-news-date{
+  font-weight: 400!important;
+  position: sticky;
+  right: 10px;
+  margin-top: 6px;
+  font-size: 13px;
+}
 .card-body a{
+  transition: 0.5s;
   color: #000;
   font-weight: 500;
   letter-spacing: 0.1rem;
   text-decoration: none;
 }
 .card-body a::before{
+  transition: 0.5s;
   content: "\00bb";
   font-weight: bold;
   font-size: 20px;
 }
 .card-body a:hover{
+  transition: 0.5s;
   color: #4f138f;
+}
+.card-body a:hover > .home-news-date{
+  font-weight: bold!important;
+}
+.card-body a:hover::before{
+  transition: 0.5s;
+  content: "\2022";
 }
 .welcome-area h2{
   text-transform: capitalize;
@@ -215,13 +232,37 @@ This code will make loader to center
 }
 
 /*
+Counter
+*/
+
+/*
+=============================
+== Message From Management ==
+=============================
+*/
+
+.management-photo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.managament-name{
+  font-weight: 700;
+  font-size: 20px;
+}
+.management-post{
+  color: #494747;
+  font-weight: 500;
+}
+
+/*
 ===================
 == Gallery Items ==
 ===================
 */
 .gallery-section{
-  background: linear-gradient(rgba(34, 32, 32, 0.219),
-   rgba(49, 46, 46, 0.5)), 
+  background: linear-gradient(rgba(0, 0, 0, 0.644),
+   rgba(0, 0, 0, 0.671)), 
    url('https://source.unsplash.com/1920x1080/?university')
   repeat fixed;
   background-position: center;
@@ -305,4 +346,3 @@ hr{
   transition: 0.3s;
   color: orangered;
 }
-

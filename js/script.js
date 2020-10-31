@@ -33,6 +33,7 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+//The below is for gallery 
 jQuery(document).ready(function () {
   jQuery("#my_nanogallery2").nanogallery2({
     items: [
