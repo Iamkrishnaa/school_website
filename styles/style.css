@@ -214,7 +214,24 @@ This code will make loader to center
   color: rgb(28, 73, 7);
 }
 
-
+/*
+===================
+== Gallery Items ==
+===================
+*/
+.gallery-section{
+  background: linear-gradient(rgba(34, 32, 32, 0.219),
+   rgba(49, 46, 46, 0.5)), 
+   url('https://source.unsplash.com/1920x1080/?university')
+  repeat fixed;
+  background-position: center;
+  background-size: cover;
+}
+.gallery-title{
+  font-weight: bolder;
+  color: #fff;
+  letter-spacing: 0.2rem;
+}
 
 /*
 below code is for goup button
@@ -231,24 +248,21 @@ below code is for goup button
   cursor: pointer;
   padding: 10px;
   transition: 0.5s;
+  background-color: green;
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
 }
 .fa-chevron-up{
   font-size: 20px;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 32px;
   color: white;
-  padding: 10px;
-  background-color: green;
-  border-radius: 10px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
-.fa-chevron-up:hover{
-  background-color: purple;
-  transform: translateY(-10px);
-  transition: 0.4s;
+#goUp:hover .fa-chevron-up{
+  transform: translateY(-8px);
+  transition: 0.3s;
 }
 
 /* Footer Section */
@@ -271,16 +285,8 @@ hr{
   color: orangered;
 }
 
-.map-container-3{
-  width: 100%!important;
-  }
-  .map-container-3 iframe{
-  width:100%!important;
-  height: 20vh;
-  border-radius: 20px;
-  }
-
 /*Below code for copyright section*/
+
 .copyright-section{
   padding: 20px;
   background-color: rgb(32, 32, 34);

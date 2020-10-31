@@ -14,8 +14,10 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
 
-    <!-- fontaweosome icons kit -->
-    <script src="https://kit.fontawesome.com/eddf26b455.js" crossorigin="anonymous"></script>
+    <!-- ImageGallery Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.4/css/nanogallery2.min.css"/>
+
+    
 </head>
 <body>
     <!-- The below code is for loader that will be visible until page loads-->
@@ -208,9 +210,14 @@
     </div>
   </div>
 
-  
+  <div class="gallery-section">
+    <div class="container">
+      <h2 class="gallery-title">Gallery</h2>
+      <div id="my_nanogallery2">
 
-
+      </div>
+    </div>
+  </div>
   <!--Go Up button-->
   <button onclick="topFunction()" id="goUp" title="Go to top"><i class="fas fa-chevron-up"></i></button>
   <!-- Footer -->
@@ -228,13 +235,7 @@
           <!-- Content -->
           <h6 class="text-uppercase font-weight-bold">School Name</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Lorem ipsum dolor sit amet,
-            consectetur</p>
-            <i class="fas fa-map-marker-alt"></i> School Location<br>
-            <i class="fas fa-envelope"></i> info@school.com<br>
-            <i class="fas fa-phone"></i> + 00 00 00000<br>
-            <i class="fas fa-print"></i> + 00 00 00000
-
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem necessitatibus consequuntur nobis. Totam reprehenderit iste consequuntur excepturi. Facere, culpa quo.</p>
         </div>
         <!-- Grid column -->
 
@@ -253,16 +254,15 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-5 col-lg-4 col-xl-4">
+        <div class="col-md-4 col-lg-3 col-xl-3">
 
           <!-- Links -->
-          <h6 class="text-uppercase font-weight-bold">Location Map</h6>
+          <h6 class="text-uppercase font-weight-bold">Contact Us</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;"><br>
-          <!--Google map-->
-          <div id="map-container-google-3" class="z-depth-1-half map-container-3">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d796.3453167807187!2d83.91475350122698!3d28.314159611981143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x53fd468bd961efe!2sA-One%20Dairy%20Farm!5e1!3m2!1sen!2snp!4v1603946833917!5m2!1sen!2snp" frameborder="0"
-              style="border:0" allowfullscreen></iframe>
-          </div>
+            <i class="fas fa-map-marker-alt"></i> School Location<br>
+            <i class="fas fa-envelope"></i> info@school.com<br>
+            <i class="fas fa-phone"></i> + 00 00 00000<br>
+            <i class="fas fa-print"></i> + 00 00 00000
         </div>
         <!-- Grid column -->
 
@@ -287,5 +287,11 @@
 
   <!-- Custom Scripts -->
   <script src="js/script.js"></script>
+
+  <!-- Gallery Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/nanogallery2/3.0.4/jquery.nanogallery2.min.js"></script>
+
+  <!-- fontaweosome icons kit -->
+  <script src="https://kit.fontawesome.com/eddf26b455.js" crossorigin="anonymous"></script>
 </body>
 </html>
