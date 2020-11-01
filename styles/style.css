@@ -1,6 +1,9 @@
+*{
+  box-sizing: border-box;
+}
 html, body{
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 /*
@@ -234,7 +237,24 @@ This code will make loader to center
 /*
 Counter
 */
+.counter-section{
 
+}
+.counter-container{
+  padding: 10px;
+  color: #fff;
+}
+.counter-container h1{
+  font-size: 25px;
+
+}
+
+.counter-container .counter-icon{
+  font-size: 45px;
+}
+.counter-row{
+  background-color: #0c1a70;
+}
 /*
 =============================
 == Message From Management ==
