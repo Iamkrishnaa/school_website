@@ -122,7 +122,7 @@
   <!--Carousel (Sliding Images)-->
   <section class="carousel-section">
     <div class="container-fluid image-slider px-5">
-      <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel">
           <ol class="carousel-indicators">
               <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
               <li data-target="#mycarousel" data-slide-to="1"></li>
@@ -198,7 +198,17 @@
                 Excepturi dignissimos amet omnis 
                 odit odio tenetur ipsum reprehenderit 
                 repellendus eum voluptates laboriosam
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore molestias quod error optio, animi odio.	 
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Tempore molestias 
+                quod error optio, animi odio.	 
+                Lorem ipsum dolor sit, 
+                amet consectetur adipisicing elit.
+                Excepturi dignissimos amet omnis 
+                odit odio tenetur ipsum reprehenderit 
+                repellendus eum voluptates laboriosam
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Tempore molestias 
+                quod error optio, animi odio.	 
               </div>
               <div class="about-more-button btn">
                 <a href="#" class="about-more">About more</a>
@@ -209,13 +219,23 @@
             <div class="card bg-light mb-3 ml-auto" style="max-width: 30rem;">
               <div class="card-header"><h4>News</h2></div>
               <div class="card-body">
-                <a href="#">Result of First Year Published<span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span></a><br>
-                <a href="#">Examination Notice<span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span></a><br>
-                <a href="#">Re Assessment<span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span></a><br>
-                <a href="#">Event Notice<span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span></a><br>
-                <a href="#">Other Notice<span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span></a><br>
+                <a href="#">Result of First Year Published<br>
+                  <span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span>
+                </a><hr>
+                <a href="#">Examination Notice<br>
+                  <span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span>
+                </a><hr>
+                <a href="#">Re Assessment<br>
+                  <span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span>
+                </a><hr>
+                <a href="#">Event Notice<br>
+                  <span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span>
+                </a><hr>
+                <a href="#">Other Notice<br>
+                  <span class="home-news-date">&nbsp;&nbsp;2020-10-11&nbsp;</span>
+                </a><hr>
               </div>
-              <div class="ml-auto pb-1 pr-1 btn-see-more">
+              <div class="ml-auto pb-1 pr-1 pt-0 btn-see-more">
                 <a href="#" class="btn-info btn">See More</a>
               </div>
             </div>
@@ -227,13 +247,13 @@
 
   <!-- Message From Management -->
   <section class="message-from-management-section">
-    <div class="message-from-management">
+    <div class="message-from-management container-fluid">
       <div class="container">
         <h2 class="text-center">Message From Management</h2>
-        <div class="container management-messages my-2">
+        <div class="container management-messages">
           <div class="row">
             <div class="col-md-6">
-              <div class="card mb-3">
+              <div class="card">
                 <div class="card-header">
                   <div class="row">
                     <img src="https://avatars0.githubusercontent.com/u/61038161?s=460&u=6d57c658dd45fc006e5726bb487f47c2ee5299c4&v=4" class="management-photo">
@@ -243,8 +263,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card-body">
-                  
+                <div class="card-body text-justify">
                   Lorem, ipsum dolor sit amet consectetur 
                   adipisicing elit. Atque, ipsum alias 
                   sapiente totam ea impedit distinctio 
@@ -273,7 +292,7 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="card mb-3">
+              <div class="card">
                 <div class="card-header">
                   <div class="row">
                     <img src="https://avatars0.githubusercontent.com/u/61038161?s=460&u=6d57c658dd45fc006e5726bb487f47c2ee5299c4&v=4" class="management-photo">
@@ -283,7 +302,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="card-body">
+                <div class="card-body text-justify">
                   Lorem, ipsum dolor sit amet consectetur 
                   adipisicing elit. Atque, ipsum alias 
                   sapiente totam ea impedit distinctio 
@@ -317,19 +336,8 @@
     </div>
   </section>
 
-  <!-- Gallery Section -->
-  <section class="gallery-section" data-aos="fade-up">
-    <div class="container-fluid">
-      <div class="container pt-4 pb-2 px-0">
-        <h2 class="gallery-title text-center">Gallery</h2>
-        <div id="my_nanogallery2" data-aos="slide-left">
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Counter Section -->
-  <section class="counter-section container-fluid data-aos="fade-up">
+  <section class="counter-section container-fluid"  data-aos="fade-up">
     <div class="container counter-container">
       <div class="row counter-row" data-aos="fade-up">
         <div class="col-md-3 text-center">
@@ -338,7 +346,7 @@
               <i class="fas fa-user-graduate"></i>
             </div>
             <h1>Students</h1>
-            <span class="counter">2000</span><span>+</span>
+            <span class="counter">2000</span><span style="font-size: 26px;position: relative;top: -8px;">+</span>
           </div>
         </div>
         <div class="col-md-3 text-center">
@@ -347,7 +355,7 @@
               <i class="fas fa-university"></i>
             </div>
             <h1>Students</h1>
-            <span class="counter">2000</span><span>+</span>
+            <span class="counter">2000</span><span style="font-size: 26px;position: relative;top: -8px;">+</span>
           </div>
         </div>
         <div class="col-md-3 text-center">
@@ -356,7 +364,7 @@
               <i class="fas fa-user-graduate"></i>
             </div>
             <h1>Students</h1>
-            <span class="counter">2000</span><span>+</span>
+            <span class="counter">2000</span><span style="font-size: 26px;position: relative;top: -8px;">+</span>
           </div>
         </div>
         <div class="col-md-3 text-center">
@@ -365,8 +373,19 @@
               <i class="fas fa-university"></i>
             </div>
             <h1>Students</h1>
-            <span class="counter">2000</span><span>+</span>
+            <span class="counter">2000</span><span style="font-size: 26px;position: relative;top: -8px;">+</span>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section" data-aos="fade-up">
+    <div class="container-fluid">
+      <div class="container pt-4 pb-2 px-0">
+        <h2 class="gallery-title text-center">Gallery</h2>
+        <div id="my_nanogallery2" data-aos="slide-left">
         </div>
       </div>
     </div>

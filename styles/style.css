@@ -3,7 +3,7 @@
 }
 html, body{
     scroll-behavior: smooth;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 /*
@@ -85,13 +85,68 @@ This code will make loader to center
     display: inline-block;
     color: #000;
     font-size: 14px;
-    padding: 0 8px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
   }
+
+  .school-top-social-nav .fa-facebook{
+    transition: 0.3s;
+    padding: 5px 8px;
+  }
+  .school-top-social-nav .fa-facebook:hover{
+    transition: 0.3s;
+    background-color: #3b5998;
+    border-radius: 5px;
+    color: #fff;
+  }
+
+  .school-top-social-nav .fa-twitter{
+    transition: 0.3s;
+    padding: 5px 8px;
+  }
+  .school-top-social-nav .fa-twitter:hover{
+    transition: 0.3s;
+    background-color: #00acee;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .school-top-social-nav .fa-google-plus{
+    transition: 0.3s;
+    padding: 5px 8px;
+  }
+  .school-top-social-nav .fa-google-plus:hover{
+    transition: 0.3s;
+    background-color: #db4a39;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .school-top-social-nav .fa-linkedin{
+    transition: 0.3s;
+    padding: 5px 8px;
+  }
+  .school-top-social-nav .fa-linkedin:hover{
+    transition: 0.3s;
+    background-color: #0e76a8;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  .school-top-social-nav .fa-youtube{
+    transition: 0.3s;
+    padding: 5px 8px;
+  }
+  .school-top-social-nav .fa-youtube:hover{
+    transition: 0.3s;
+    background-color: #FF0000;
+    border-radius: 5px;
+    color: #fff;
+  }
+
 
   /* NavBar Section */
   .navbar-wrapper{
@@ -105,6 +160,7 @@ This code will make loader to center
     text-transform: uppercase;
     font-weight: 500;
   }
+
 
   /*Carousel Section*/
   #mycarousel{
@@ -120,10 +176,20 @@ This code will make loader to center
     border-radius: 100%;
   }
 
+  .carousel-inner{
+    transition: 3s;
+    overflow: hidden;
+  }
+  .carousel-inner .carousel-item:hover{
+    transition: 3s;
+    transform: scale(1.1);
+  }
+
   /* Latest News Section */
   .news-ticker{
     position: relative;
     top: -20px;
+    z-index: 99;
   }
   .news {
     width: 160px;
@@ -214,6 +280,9 @@ This code will make loader to center
   font-weight: bold;
   font-size: 20px;
 }
+.card-body hr{
+  margin: 0px !important;
+}
 .card-body a:hover{
   transition: 0.5s;
   color: #4f138f;
@@ -237,15 +306,15 @@ This code will make loader to center
 /*
 Counter
 */
-.counter-section{
-
+.counter-section .counter{
+  font-size: 22px;
 }
 .counter-container{
   padding: 10px;
   color: #fff;
 }
 .counter-container h1{
-  font-size: 25px;
+  font-size: 30px;
 
 }
 

@@ -6,6 +6,6 @@ AOS.init({
 });
 
 $('.counter').countUp({
-    'time': 3000,
-    'delay': 20
+    'time': 4000,
+    'delay': 50
 });
