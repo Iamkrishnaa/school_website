@@ -7,6 +7,41 @@ html, body{
 }
 
 /*
+==================
+== GOOGLE FONTS ==
+==================
+*/
+@import url(
+  'https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Germania+One&family=IM+Fell+DW+Pica&family=Itim&family=Metamorphous&family=Nova+Oval&family=Nova+Square&family=Salsa&display=swap'
+  );
+
+
+.font-cherry-swash{
+  font-family: 'Cherry Swash', cursive;
+}
+.font-germania-one{
+  font-family: 'Germania One', cursive;
+}
+.font-im-fell-dw-pica{
+  font-family: 'IM Fell DW Pica', serif;
+}
+.font-itim{
+  font-family: 'Itim', cursive;
+}
+.font-metamorphous{
+  font-family: 'Metamorphous', cursive;
+}
+.font-nova-oval{
+  font-family: 'Nova Oval', cursive;
+}
+.font-nova-square{
+  font-family: 'Nova Square', cursive;
+}
+.font-salsa{
+  font-family: 'Salsa', cursive;
+}
+
+/*
 This code will make loader
 */
 #loader { 
@@ -180,6 +215,10 @@ This code will make loader to center
     transition: 3s;
     overflow: hidden;
   }
+
+  .carousel-inner .carousel-item{
+    transition: 3s;
+  }
   .carousel-inner .carousel-item:hover{
     transition: 3s;
     transform: scale(1.1);
@@ -196,7 +235,7 @@ This code will make loader to center
     text-transform: uppercase;
 }
 .breaking-news{
-  background-color: #134594;
+  background-color: #0d4092;
 }
 .news-scroll a {
     text-decoration: none;
@@ -322,7 +361,10 @@ Counter
   font-size: 45px;
 }
 .counter-row{
-  background-color: #0c1a70;
+  background-color: #002679;
+}
+.counter-row .col-md-3{
+  border-left: 2px solid white;
 }
 /*
 =============================

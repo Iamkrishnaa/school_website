@@ -18,6 +18,10 @@
   #mycarousel{
     margin-top: 0px;
   }
+  .counter-row .col-md-3{
+    border-bottom: 2px solid white;
+    border-right: 0px;
+  }
 }
 @media (max-width: 1280px) {
   .image-slider{
