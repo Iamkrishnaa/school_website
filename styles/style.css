@@ -1,9 +1,10 @@
-*{
+* {
   box-sizing: border-box;
 }
-html, body{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /*
@@ -11,252 +12,258 @@ html, body{
 == GOOGLE FONTS ==
 ==================
 */
-@import url(
-  'https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Germania+One&family=IM+Fell+DW+Pica&family=Itim&family=Metamorphous&family=Nova+Oval&family=Nova+Square&family=Salsa&display=swap'
-  );
+@import url("https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Germania+One&family=IM+Fell+DW+Pica&family=Itim&family=Metamorphous&family=Nova+Oval&family=Nova+Square&family=Salsa&display=swap");
 
-
-.font-cherry-swash{
-  font-family: 'Cherry Swash', cursive;
+.font-cherry-swash {
+  font-family: "Cherry Swash", cursive;
 }
-.font-germania-one{
-  font-family: 'Germania One', cursive;
+.font-germania-one {
+  font-family: "Germania One", cursive;
 }
-.font-im-fell-dw-pica{
-  font-family: 'IM Fell DW Pica', serif;
+.font-im-fell-dw-pica {
+  font-family: "IM Fell DW Pica", serif;
 }
-.font-itim{
-  font-family: 'Itim', cursive;
+.font-itim {
+  font-family: "Itim", cursive;
 }
-.font-metamorphous{
-  font-family: 'Metamorphous', cursive;
+.font-metamorphous {
+  font-family: "Metamorphous", cursive;
 }
-.font-nova-oval{
-  font-family: 'Nova Oval', cursive;
+.font-nova-oval {
+  font-family: "Nova Oval", cursive;
 }
-.font-nova-square{
-  font-family: 'Nova Square', cursive;
+.font-nova-square {
+  font-family: "Nova Square", cursive;
 }
-.font-salsa{
-  font-family: 'Salsa', cursive;
+.font-salsa {
+  font-family: "Salsa", cursive;
 }
 
 /*
 This code will make loader
 */
-#loader { 
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url(../images/icons/loader.gif) center no-repeat #fff; 
+#loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(../images/icons/loader.gif) center no-repeat #fff;
 }
 /*
 This code will make loader to center
-*/   
-.loader .center { 
-    position: absolute; 
-    top: 0; 
-    bottom: 0; 
-    left: 0; 
-    right: 0; 
-    margin: auto; 
-} 
+*/
+.loader .center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
 /*==================
  HEADER SECTION
 ====================*/
 #school-header {
-    background-color: #f8f8f8;
-    display: inline;
-    float: left;
-    width: 100%;
-  }
-  #school-header .school-header-area {
-    display: inline;
-    float: left;
-    padding: 10px 0;
-    width: 100%;
-  }
-  #school-header .school-header-area .school-header-top-left {
-    display: inline;
-    float: left;
-    width: 100%;
-  }
-  #school-header .school-header-area .school-header-top-left .school-top-email {
-    display: inline;
-    float: left;
-    font-size: 14px;
-  }
-  #school-header .school-header-area .school-header-top-left .school-top-email i {
-    margin-right: 5px;
-  }
-  #school-header .school-header-area .school-header-top-left .school-top-phone {
-    border-left: 1px solid #ddd;
-    display: inline;
-    font-size: 14px;
-    float: left;
-    margin-left: 15px;
-    padding-left: 15px;
-  }
-  #school-header .school-header-area .school-header-top-left .school-top-phone i {
-    margin-right: 5px;
-  }
-  #school-header .school-header-area .school-header-top-right {
-    display: inline;
-    float: left;
-    text-align: right;
-    width: 100%;
-  }
-  #school-header .school-header-area .school-header-top-right .school-top-social-nav {
-    display: inline-block;
-  }
-  #school-header .school-header-area .school-header-top-right .school-top-social-nav li {
-    display: inline-block;
-  }
-  #school-header .school-header-area .school-header-top-right .school-top-social-nav li a {
-    display: inline-block;
-    color: #000;
-    font-size: 14px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-
-  .school-top-social-nav .fa-facebook{
-    transition: 0.3s;
-    padding: 5px 8px;
-  }
-  .school-top-social-nav .fa-facebook:hover{
-    transition: 0.3s;
-    background-color: #3b5998;
-    border-radius: 5px;
-    color: #fff;
-  }
-
-  .school-top-social-nav .fa-twitter{
-    transition: 0.3s;
-    padding: 5px 8px;
-  }
-  .school-top-social-nav .fa-twitter:hover{
-    transition: 0.3s;
-    background-color: #00acee;
-    border-radius: 5px;
-    color: #fff;
-  }
-  
-  .school-top-social-nav .fa-google-plus{
-    transition: 0.3s;
-    padding: 5px 8px;
-  }
-  .school-top-social-nav .fa-google-plus:hover{
-    transition: 0.3s;
-    background-color: #db4a39;
-    border-radius: 5px;
-    color: #fff;
-  }
-  
-  .school-top-social-nav .fa-linkedin{
-    transition: 0.3s;
-    padding: 5px 8px;
-  }
-  .school-top-social-nav .fa-linkedin:hover{
-    transition: 0.3s;
-    background-color: #0e76a8;
-    border-radius: 5px;
-    color: #fff;
-  }
-  
-  .school-top-social-nav .fa-youtube{
-    transition: 0.3s;
-    padding: 5px 8px;
-  }
-  .school-top-social-nav .fa-youtube:hover{
-    transition: 0.3s;
-    background-color: #FF0000;
-    border-radius: 5px;
-    color: #fff;
-  }
-
-
-  /* NavBar Section */
-  .navbar-wrapper{
-    max-width: 90% !important;
-  }
-  .my-nav{
-    z-index: 999;
-
-  }
-  .my-nav ul li a{
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-
-
-  /*Carousel Section*/
-  #mycarousel{
-    margin-top: -40px;
-  }
-  .carousel-item img{
-    max-height: 80vh!important;
-    min-height: 40vh!important;
-  }
-  .carousel-indicators li {
-    height: 10px;
-    width: 10px;
-    border-radius: 100%;
-  }
-
-  .carousel-inner{
-    transition: 3s;
-    overflow: hidden;
-  }
-
-  .carousel-inner .carousel-item{
-    transition: 3s;
-  }
-  .carousel-inner .carousel-item:hover{
-    transition: 3s;
-    transform: scale(1.1);
-  }
-
-  /* Latest News Section */
-  .news-ticker{
-    position: relative;
-    top: -20px;
-    z-index: 99;
-  }
-  .news {
-    width: 160px;
-    text-transform: uppercase;
+  background-color: #f8f8f8;
+  display: inline;
+  float: left;
+  width: 100%;
 }
-.breaking-news{
+#school-header .school-header-area {
+  display: inline;
+  float: left;
+  padding: 10px 0;
+  width: 100%;
+}
+#school-header .school-header-area .school-header-top-left {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#school-header .school-header-area .school-header-top-left .school-top-email {
+  display: inline;
+  float: left;
+  font-size: 14px;
+}
+#school-header .school-header-area .school-header-top-left .school-top-email i {
+  margin-right: 5px;
+}
+#school-header .school-header-area .school-header-top-left .school-top-phone {
+  border-left: 1px solid #ddd;
+  display: inline;
+  font-size: 14px;
+  float: left;
+  margin-left: 15px;
+  padding-left: 15px;
+}
+#school-header .school-header-area .school-header-top-left .school-top-phone i {
+  margin-right: 5px;
+}
+#school-header .school-header-area .school-header-top-right {
+  display: inline;
+  float: left;
+  text-align: right;
+  width: 100%;
+}
+#school-header
+  .school-header-area
+  .school-header-top-right
+  .school-top-social-nav {
+  display: inline-block;
+}
+#school-header
+  .school-header-area
+  .school-header-top-right
+  .school-top-social-nav
+  li {
+  display: inline-block;
+}
+#school-header
+  .school-header-area
+  .school-header-top-right
+  .school-top-social-nav
+  li
+  a {
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.school-top-social-nav .fa-facebook {
+  transition: 0.3s;
+  padding: 5px 8px;
+}
+.school-top-social-nav .fa-facebook:hover {
+  transition: 0.3s;
+  background-color: #3b5998;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.school-top-social-nav .fa-twitter {
+  transition: 0.3s;
+  padding: 5px 8px;
+}
+.school-top-social-nav .fa-twitter:hover {
+  transition: 0.3s;
+  background-color: #00acee;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.school-top-social-nav .fa-google-plus {
+  transition: 0.3s;
+  padding: 5px 8px;
+}
+.school-top-social-nav .fa-google-plus:hover {
+  transition: 0.3s;
+  background-color: #db4a39;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.school-top-social-nav .fa-linkedin {
+  transition: 0.3s;
+  padding: 5px 8px;
+}
+.school-top-social-nav .fa-linkedin:hover {
+  transition: 0.3s;
+  background-color: #0e76a8;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.school-top-social-nav .fa-youtube {
+  transition: 0.3s;
+  padding: 5px 8px;
+}
+.school-top-social-nav .fa-youtube:hover {
+  transition: 0.3s;
+  background-color: #ff0000;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* NavBar Section */
+.navbar-wrapper {
+  max-width: 90% !important;
+}
+.my-nav {
+  z-index: 999;
+}
+.my-nav ul li a {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/*Carousel Section*/
+#mycarousel {
+  margin-top: -40px;
+}
+.carousel-item img {
+  max-height: 80vh !important;
+  min-height: 40vh !important;
+}
+.carousel-indicators li {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+}
+
+.carousel-inner {
+  transition: 3s;
+  overflow: hidden;
+}
+
+.carousel-inner .carousel-item {
+  transition: 3s;
+}
+.carousel-inner .carousel-item:hover {
+  transition: 3s;
+  transform: scale(1.1);
+}
+
+/* Latest News Section */
+.news-ticker {
+  position: relative;
+  top: -20px;
+  z-index: 99;
+}
+.news {
+  width: 160px;
+  text-transform: uppercase;
+}
+.breaking-news {
   background-color: #0d4092;
 }
 .news-scroll a {
-    text-decoration: none;
-    color: #fff;
-    letter-spacing: 0.1rem;
-    font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
 }
-.news-scroll a:hover{
+.news-scroll a:hover {
   color: #b2e046;
 }
 
 .dot {
-    margin-left: 3px;
-    margin-right: 3px;
-    margin-top: 2px !important;
-    background-color: rgb(255, 0, 0);
-    color: red;
-    display: inline-block
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px !important;
+  background-color: rgb(255, 0, 0);
+  color: red;
+  display: inline-block;
 }
 
-.about-more{
+.about-more {
   display: inline-block;
   vertical-align: middle;
   position: relative;
@@ -273,97 +280,96 @@ This code will make loader to center
   border-radius: 8px;
   text-transform: capitalize;
 }
-.welcome-area{
+.welcome-area {
   margin-top: 20px;
 }
-.welcome-underline{
+.welcome-underline {
   width: 40%;
   height: 5px;
   background-color: #0c1a70;
   transform: skewX(-30deg);
   margin: 5px;
 }
-.content-text{
+.content-text {
   text-align: justify;
 }
 
-.about-more-button a{
-  text-decoration: none!important;
-  outline: none!important;
+.about-more-button a {
+  text-decoration: none !important;
+  outline: none !important;
 }
-.about-more-button a:hover{
+.about-more-button a:hover {
   background-color: #134594;
   color: #43e653;
 }
-.news-part{
+.news-part {
   margin-top: 20px;
 }
 
-.home-news-date{
-  font-weight: 400!important;
+.home-news-date {
+  font-weight: 400 !important;
   position: sticky;
   right: 10px;
   margin-top: 6px;
   font-size: 13px;
 }
-.card-body a{
+.card-body a {
   transition: 0.5s;
   color: #000;
   font-weight: 500;
   letter-spacing: 0.1rem;
   text-decoration: none;
 }
-.card-body a::before{
+.card-body a::before {
   transition: 0.5s;
   content: "\00bb";
   font-weight: bold;
   font-size: 20px;
 }
-.card-body hr{
+.card-body hr {
   margin: 0px !important;
 }
-.card-body a:hover{
+.card-body a:hover {
   transition: 0.5s;
   color: #4f138f;
 }
-.card-body a:hover > .home-news-date{
-  font-weight: bold!important;
+.card-body a:hover > .home-news-date {
+  font-weight: bold !important;
 }
-.card-body a:hover::before{
+.card-body a:hover::before {
   transition: 0.5s;
   content: "\2022";
 }
-.welcome-area h2{
+.welcome-area h2 {
   text-transform: capitalize;
   font-weight: 700;
   color: #4f138f;
 }
-.welcome-front{
+.welcome-front {
   color: rgb(28, 73, 7);
 }
 
 /*
 Counter
 */
-.counter-section .counter{
+.counter-section .counter {
   font-size: 22px;
 }
-.counter-container{
+.counter-container {
   padding: 10px;
   color: #fff;
 }
-.counter-container h1{
+.counter-container h1 {
   font-size: 30px;
-
 }
 
-.counter-container .counter-icon{
+.counter-container .counter-icon {
   font-size: 45px;
 }
-.counter-row{
+.counter-row {
   background-color: #002679;
 }
-.counter-row .col-md-3{
+.counter-row .col-md-3 {
   border-left: 2px solid white;
 }
 /*
@@ -372,16 +378,16 @@ Counter
 =============================
 */
 
-.management-photo{
+.management-photo {
   width: 100px;
   height: 100px;
   border-radius: 100%;
 }
-.managament-name{
+.managament-name {
   font-weight: 700;
   font-size: 20px;
 }
-.management-post{
+.management-post {
   color: #494747;
   font-weight: 500;
 }
@@ -391,15 +397,14 @@ Counter
 == Gallery Items ==
 ===================
 */
-.gallery-section{
-  background: linear-gradient(rgba(0, 0, 0, 0.644),
-   rgba(0, 0, 0, 0.671)), 
-   url('https://source.unsplash.com/1920x1080/?university')
-  repeat fixed;
+.gallery-section {
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.644), rgba(0, 0, 0, 0.671)),
+    url("https://source.unsplash.com/1920x1080/?university") repeat fixed;
   background-position: center;
   background-size: cover;
 }
-.gallery-title{
+.gallery-title {
   font-weight: bolder;
   color: #fff;
   letter-spacing: 0.2rem;
@@ -427,53 +432,53 @@ below code is for goup button
   height: 50px;
   border-radius: 5px;
 }
-.fa-chevron-up{
+.fa-chevron-up {
   font-size: 20px;
   color: white;
   transition: 0.3s;
 }
-#goUp:hover .fa-chevron-up{
+#goUp:hover .fa-chevron-up {
   transform: translateY(-8px);
   transition: 0.3s;
 }
 
 /* Footer Section */
-hr{
+hr {
   background-color: #fff !important;
 }
-.footer-section{
+.footer-section {
   color: #fff;
-  text-align: justify!important;
+  text-align: justify !important;
 }
-.footer-section a{
+.footer-section a {
   color: #fff;
   transition: 0.3s;
   font-weight: 600;
   text-decoration: none;
 }
 
-.footer-section a:hover{
+.footer-section a:hover {
   transition: 0.3s;
   color: orangered;
 }
 
 /*Below code for copyright section*/
 
-.copyright-section{
+.copyright-section {
   padding: 20px;
   background-color: rgb(32, 32, 34);
 }
-.copyright-text{
+.copyright-text {
   color: #cac6c6;
   font-size: 1rem;
 }
-.copyright-text a{
+.copyright-text a {
   transition: 0.3s;
   text-decoration: none;
   text-transform: uppercase;
   color: #cac6c6;
 }
-.copyright-text a:hover{
+.copyright-text a:hover {
   transition: 0.3s;
   color: orangered;
 }
