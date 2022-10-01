@@ -2,11 +2,11 @@
 
 # Technologies Used
 
-HTML
+# HTML
 60.9%
  
-CSS
+# CSS
 27.3%
  
-JavaScript
+# JavaScript
 11.8%
