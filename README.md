@@ -1,4 +1,5 @@
 # School Website Template Designed using Bootstrap
+# Can use bootstrap, and can contribute in this project
 
 # Technologies Used
 
@@ -10,3 +11,5 @@
  
 # JavaScript
 11.8%
+
+
